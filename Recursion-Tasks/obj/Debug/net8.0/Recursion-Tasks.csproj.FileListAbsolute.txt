@@ -1,0 +1,14 @@
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\bin\Debug\net8.0\Recursion-Tasks.exe
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\bin\Debug\net8.0\Recursion-Tasks.deps.json
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\bin\Debug\net8.0\Recursion-Tasks.runtimeconfig.json
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\bin\Debug\net8.0\Recursion-Tasks.dll
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\bin\Debug\net8.0\Recursion-Tasks.pdb
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.AssemblyInfoInputs.cache
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.AssemblyInfo.cs
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.csproj.CoreCompileInputs.cache
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.dll
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\refint\Recursion-Tasks.dll
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.pdb
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.genruntimeconfig.cache
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\ref\Recursion-Tasks.dll
