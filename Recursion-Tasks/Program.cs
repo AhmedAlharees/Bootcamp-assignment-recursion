@@ -9,7 +9,6 @@ using System.Threading.Channels;
 namespace Program {
     class Recursion {
 
-
         // Q1
         // num with default value of 50
         public static void Print50NaturalNums(int num = 50) {
@@ -33,15 +32,9 @@ namespace Program {
         // Q3
         // fibonacci is a series of numbers and there sum
         public static int Fibonacci(int num) {
-            // call the method till num is 0
-            if (num == 0) return 0;
+            if (num <= 1) return num;
 
-
-            // print the sum of current value with the previous value
-            Console.WriteLine((num - 1) + (num - 2));
-
-            // call the method twice one with num - 1
-            // and one with num - 2
+            //  
             return Fibonacci(num - 1) + Fibonacci(num - 2);
         }
 
@@ -67,6 +60,8 @@ namespace Program {
 
             // recurive call to reduce num by one digit
             // increment counter by one with each call
+            // 50 / 10 = 5
+            // 5 / 10 = 0 
             return CountNumOfDigits(num / 10, counter + 1);
         }
 
@@ -78,13 +73,22 @@ namespace Program {
             // call the method with num divided by 10 to reduce the value
             // by one digit
             // send the sum with the remainder of division num by 10
+            // 25 / 10 = 2
+            // 25 % 10 = 5
+            // 2 / 10 = 0
+            // 2 % 10 = 2
             return SumOfNumDigits(num / 10, (num % 10) + sum);
         }
 
         // Q7
+        // Greatest Common Divisor (GCD)
+        // greatest number both sides can be divide on it
         public static int GreatestCommonDivisor(int a, int b) {
+            // when b reach 0 return a
             if (b == 0) return a;
 
+            // b = 10, a = 50
+            // 50 % 10 = 0
             return GreatestCommonDivisor(b, a % b);
         }
 
@@ -110,27 +114,34 @@ namespace Program {
             if (str.Length == 0) return;
 
             // gonna keep the recurion till I reach last letter 
+            // Hello => ello
+            // elllo => llo
             PrintStringInReverse(str.Substring(1));
             
             // after the the last call is over, print letter
+            // o => l => l => e => H
             Console.Write(str[0]);
         }
 
+
         // Q10
         // factorial is series n * n - 1... * n * 1
+        // 7! = 7 * 7 - 1 * 7 - 2...* 7 - 6
         public static int Factorial(int num) {
+            // shouldn't reach 0, the whole value will become 0
             if (num <= 1) return 1;
 
             // return the number multiply by num - 1
             return num * Factorial(num - 1);
         }
 
-        // Q11 -> ??
+        // Q11 -> ?? TO DO
 
 
         // Q12
         // Prime numbers are number that only accept the divsion
-        // by one OR itself.
+        // by one OR itself without remainder.
+        // 2, 3, 5, 7, 11...etc
         public static bool IsPrimeOrNot(int num, int n = 2) {
 
             // no number less than 2 is prime
@@ -150,7 +161,7 @@ namespace Program {
             return IsPrimeOrNot(num, n + 1);
         }
 
-        // Q13
+        // Q13 ?? TO DO
 
 
 
@@ -177,9 +188,9 @@ namespace Program {
             PrintOdd(rangeStart, rangeEnd);
         }
 
-        // Q15 -> ??
+        // Q15 -> ?? TO DO
 
-        // Q16 -> ??
+        // Q16 -> ?? TO DO
 
         // Q17
         public static int Power(int num, int power) {
@@ -191,12 +202,18 @@ namespace Program {
         }
 
 
-        // Q18 -> ??
+        // Q18 -> ?? TO DO
 
         // Q19
         public static string CopyString(string originalString, string copiedString = "") {
             if (originalString.Length == 0) return copiedString;
 
+            // send the original string minus one letter
+            // concatinate the copied string with first letter
+            // "" + H
+            // H + e
+            // He + l
+            // ..etc
             return CopyString(originalString.Substring(1), copiedString + originalString[0]);
         }
 
@@ -208,14 +225,22 @@ namespace Program {
 
             // check if letter in current index is equal
             // to itself if capital
+            // teSt
+            // cureent t ?= T
             if (str[index] == char.ToUpper(str[index]))
                 return Convert.ToString(str[index]);
 
+            // recurive call to the method
             return FindFirstCapital(str, index + 1);
         }
 
 
         public static void Main(string[] args) {
+            int n = 10;
+            for (int i = 1; i <= n; i++) {
+                Console.Write(Fibonacci(i));
+                Console.Write(" ");
+            }
         }
     }
 }

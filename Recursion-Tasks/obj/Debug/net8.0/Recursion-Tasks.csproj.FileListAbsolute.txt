@@ -12,3 +12,4 @@ D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\refint\Recursio
 D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.pdb
 D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.genruntimeconfig.cache
 D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\ref\Recursion-Tasks.dll
+D:\BootCamp\DSA\Recursion-Tasks\Recursion-Tasks\obj\Debug\net8.0\Recursion-Tasks.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Recursion-Tasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd5acac84cbfd6c5ba33ca99a58543832b025573")]
 [assembly: System.Reflection.AssemblyProductAttribute("Recursion-Tasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Recursion-Tasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
